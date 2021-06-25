@@ -1,0 +1,8 @@
+;0. @ load 0 onto stack
+
+{ @ Begin loop 
+10\ @ loop 10 times
++. @ Increment top of stack by one
+} @ End loop
+
+

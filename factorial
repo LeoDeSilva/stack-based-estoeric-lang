@@ -1,0 +1,18 @@
+;1<sum>
+;1<inc>
+#<n> @take in input and store in n
+
+{^\
+
+(inc) @ load the i var
+
+*(sum)<sum> @ sum *= i
+
+(inc)+1<inc> @ i += 1
+
+
+}
+
+,,,
+.
+

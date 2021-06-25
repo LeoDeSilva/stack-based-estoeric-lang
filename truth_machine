@@ -1,0 +1,7 @@
+# @ number input
+[
+    ^=1\ @ see if top of stack is equal to 1
+    {~\ @ repeat forever
+        . @print
+    }
+]
