@@ -57,27 +57,24 @@ a stack based esoteric language based loosely off of Element
 [ ^=43 \ @ if top of stack (operation) = 43 (ascii value for +)
   (n1) @ load number 1 to top of stack
   +(n2) @ add number 2 to top of stack (number 1) and store result of top of stack
-  . @ print top of stack (n1+n2)
 ]
 
 [ ^=45 \ @ if top of stack (operation) = 45 (ascii value for -)
   (n1) @ load number 1 to top of stack
   -(n2) @ subtract number 2 from top of stack (number 1) and store result of top of stack
-  . @ print top of stack (n1-n2)
 ]
 
 [ ^=42 \ @ if top of stack (operation) = 42 (ascii value for *)
   (n1) @ load number 1 to top of stack
   *(n2) @ multiply top of stack by number 2 and store result of top of stack
-  . @ print top of stack (n1*n2)
 ]
 
 [ ^=47 \ @ if top of stack (operation) = 47 (ascii value for *)
   (n1) @ load number 1 to top of stack
   /(n2) @ divide  top of stack (number 1) by number 2 and store result of top of stack
-  . @ print top of stack (n1/n2)
 ]
 
+. @ print result of calculation
 
 ```
 
